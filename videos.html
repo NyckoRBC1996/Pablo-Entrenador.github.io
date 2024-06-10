@@ -8,17 +8,21 @@
 </head>
 <body>
 <nav class="navbar bg-dark navbar-expand-lg border-bottom border-body " data-bs-theme="dark" id="navbar">
-    <div class="container-fluid">
+    <div class="container-fluid ">
+
+        <a class="navbar-brand" href="index.html">Pablo SW</a>
+
         <a class="navbar-brand" href="index.html">Pablo SW</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Bienvendid@ !!</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
+            <div class="offcanvas-body ">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -27,16 +31,24 @@
                         <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Videos
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark">
-                            <li><a class="dropdown-item" href="videos.html">Nivel 1</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="videos.html#item-0">Calentamiento</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="videos.html#item-1">Nivel 1</a></li>
+                            <li><a class="dropdown-item" href="videos.html#item-2">Nivel 2</a></li>
+                            <li><a class="dropdown-item" href="videos.html#item-3">Nivel 3</a></li>
+                            <li><a class="dropdown-item" href="videos.html#item-4">Nivel 4</a></li>
+                            <li><a class="dropdown-item" href="videos.html#item-5">Nivel 5</a></li>
+                            <li><a class="dropdown-item" href="videos.html#item-6">Nivel 6</a></li>
+                            <li><a class="dropdown-item" href="videos.html#item-7">Nivel 7</a></li>
+                            <li><a class="dropdown-item" href="videos.html#item-8">Nivel 8</a></li>
+                            <li><a class="dropdown-item" href="videos.html#item-9">Nivel 9</a></li>
+                            <li><a class="dropdown-item" href="videos.html">Nivel 0</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -50,82 +62,198 @@
 </nav>
 
 
-<!-- Más contenido del nuevo documento -->
-<div class="row">
-    <div class="col-4">
-        <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
-            <nav class="nav nav-pills flex-column">
-                <a class="nav-link" href="#item-1">NIVEL 1</a>
+<div class="container-fluid">
+    <div class="row">
+        <!-- Toggle button for small screens -->
+        <div class="col-12 d-md-none">
+            <button class="btn btn-primary my-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-example3" aria-expanded="false" aria-controls="navbar-example3">
+                Toggle Navigation
+            </button>
+        </div>
+        <!-- Sidebar -->
+        <div class="col-md-2 col-12 collapse d-md-block" id="side-navbar">
+            <nav class="h-100 flex-column align-items-stretch pe-4 border-end">
                 <nav class="nav nav-pills flex-column">
-                    <a class="nav-link ms-3 my-1" href="#item-1-1">Abdomen</a>
-                    <a class="nav-link ms-3 my-1" href="#item-1-2">Piernas</a>
-                </nav>
-                <a class="nav-link" href="#item-2">Item 2</a>
-                <a class="nav-link" href="#item-3">Item 3</a>
-                <nav class="nav nav-pills flex-column">
-                    <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
-                    <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+                    <a class="nav-link" href="#item-0">Calentamiento</a>
+                    <a class="nav-link" href="#item-1">NIVEL 1</a>
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link ms-3 my-1" href="#item-1-1">Abdomen</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-5 my-1" href="#item-1-1-1">Plancha Abdominal</a>
+                            <a class="nav-link ms-5 my-1" href="#item-1-1-2">Plancha Lateral</a>
+                        </nav>
+                        <a class="nav-link ms-3 my-1" href="#item-1-2">Empuje</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-5 my-1" href="#item-1-2-1">Flexiones de rodillas</a>
+                            <a class="nav-link ms-5 my-1" href="#item-1-2-2">Flexiones en banco</a>
+                        </nav>
+
+                        <a class="nav-link ms-3 my-1" href="#item-1-3">Tiron</a>
+                    </nav>
+                    <a class="nav-link" href="#item-2">Item 2</a>
+                    <a class="nav-link" href="#item-3">Item 3</a>
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+                        <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+                    </nav>
                 </nav>
             </nav>
-        </nav>
-    </div>
+        </div>
 
-    <div class="col-8">
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
-             class="scrollspy-example-2" tabindex="0">
-            <div id="item-1">
-                <h4>Item 1</h4>
-                <p>...</p>
-            </div>
-            <div id="item-1-1">
-                <h5>Item 1-1</h5>
-                <!-- Video Card -->
-                <div class="card border border-primary" >
-
-                    <div>
-                        <h1>Mi Video</h1>
-                        <video width="640" height="360" controls>
-                            <source src="Videos/estiramientos/antebrazos.mp4" type="video/mp4">
-                            Tu navegador no soporta .mp4.
-                        </video>
-
-                    </div>
-
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
-                    </div>
+        <!-- Main Content -->
+        <div class="col-md-10 col-12">
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
+                 class="scrollspy-example-2" tabindex="0">
+                <div id="item-0">
+                    <h4>Calentamiento</h4>
+                    <p>...</p>
                 </div>
-                <p>...</p>
-            </div>
-            <div id="item-1-2">
-                <h5>Item 1-2</h5>
-                <p>...</p>
-            </div>
-            <div id="item-2">
-                <h4>Item 2</h4>
-                <p>...</p>
-            </div>
-            <div id="item-3">
-                <h4>Item 3</h4>
-                <p>...</p>
-            </div>
-            <div id="item-3-1">
-                <h5>Item 3-1</h5>
-                <p>...</p>
-            </div>
-            <div id="item-3-2">
-                <h5>Item 3-2</h5>
-                <p>...</p>
+                <div id="item-1">
+                    <h4>Nivel 1</h4>
+                    <p>...</p>
+                </div>
+                <div id="item-1-1">
+                    <h5>Abdomen</h5>
+                    <br>
+                    <p>...</p>
+                </div>
+
+                <div id="item-1-1-1">
+                    <!-- Video Card Planch abdominal-->
+                    <div class="card border border-primary" >
+                        <div>
+                            <h1>Plancha Abdominal</h1>
+                            <video class= "rounded" width="100%" height="auto" controls>
+                                <source src="Videos/NIVEL%201(abdomen)/plancha%20abdominal.mp4" type="video/mp4">
+                                Tu navegador no soporta .mp4.
+                            </video>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Plancha Abdominal</h3>
+                            <p class="card-text">Este ejercicio blabla..</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">3 series de 30'</li>
+                            <li class="list-group-item">1:00 descanso</li>
+                        </ul>
+                    </div>
+
+                    <p>...</p>
+                </div>
+
+                <div id="item-1-1-2">
+                    <!-- Video Card planch lateral-->
+                    <div class="card border border-primary" >
+                        <div>
+                            <h1>Plancha Lateral</h1>
+                            <video class= "rounded" width="100%" height="auto" controls>
+                                <source src="Videos/estiramientos/antebrazos.mp4" type="video/mp4">
+                                Tu navegador no soporta .mp4.
+                            </video>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Plancha Lateral</h3>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">3 series de 20' plancha lateral</li>
+                            <li class="list-group-item">30´ descanso</li>
+
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+
+                    <div id="item-1-2">
+                        <h5>Empuje</h5>
+                        <br>
+                        <p>...</p>
+                    </div>
+
+                    <div id="item-1-2-1">
+                        <!-- Video Card flexiones de rodilla-->
+                        <div class="card border border-primary" >
+                            <div>
+                                <h1>Flexiones de rodillas</h1>
+                                <video class= "rounded" width="100%" height="auto" controls>
+                                    <source src="Videos/NIVEL%201(empuje)/flexiones%20de%20rodillas%20en%20banco.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Flexiones de rodillas</h3>
+                                <p class="card-text">Este ejercicio blabla..</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">series de 6-10 flexiones de rodillas en banco bajo</li>
+                                <li class="list-group-item">1:30 descanso</li>
+                            </ul>
+                        </div>
+
+                        <p>...</p>
+                    </div>
+
+                    <div id="item-1-2-2">
+                        <!-- Video Card flexiones en banco-->
+                        <div class="card border border-primary" >
+                            <div>
+                                <h1>Flexiones en banco</h1>
+                                <video class= "rounded" width="100%" height="auto" controls>
+                                    <source src="Videos/estiramientos/antebrazos.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Flexiones en banco</h3>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"> 3 series de 6-8 flexiones en banco alto</li>
+                                <li class="list-group-item">1:30 descanso</li>
+
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+
+                    <p>...</p>
+                </div>
+                <div id="item-2">
+                    <h4>Item 2</h4>
+                    <p>...</p>
+                </div>
+                <div id="item-2-1">
+                    <h4>Item 2</h4>
+                    <p>...</p>
+                </div>
+                <div id="item-2-1-1">
+                    <h4>Item 2</h4>
+                    <p>...</p>
+                </div>
+                <div id="item-2-1-2">
+                    <h4>Item 2</h4>
+                    <p>...</p>
+                </div>
+                <div id="item-3">
+                    <h4>Item 3</h4>
+                    <p>...</p>
+                </div>
+                <div id="item-3-1">
+                    <h5>Item 3-1</h5>
+                    <p>...</p>
+                </div>
+                <div id="item-3-1-1">
+                    <h5>Item 3-1-1</h5>
+                    <p>...</p>
+                </div>
+                <div id="item-3-1-2">
+                    <h5>Item 3-1-2</h5>
+                    <p>...</p>
+                </div>
             </div>
         </div>
     </div>
@@ -134,15 +262,47 @@
 
 <nav class="navbar navbar-dark bg-dark  border-bottom " data-bs-theme="dark" id="bottom-navbar">
     <div class="container-fluid d-flex justify-content-around">
-        <a class="btn btn-image" href="videos.html">
-            <img src="Logo/dumbbell-svgrepo-com.svg" alt="Videos" width="38>
-        </a>
-        <a class="btn btn-image" href="#link2">
-            <img src="path/to/your/image2.png" alt="Button 2">
-        </a>
         <a class="btn btn-image" href="#link3">
             <img src="path/to/your/image3.png" alt="Button 3">
         </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkBottomNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkBottomNavbarLabel">Pablo SW</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Videos
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="videos.html">Nivel 1</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+
         <a class="btn btn-image" href="#link4">
             <img src="path/to/your/image4.png" alt="Button 4">
         </a>
@@ -151,9 +311,11 @@
 
 <script>
     window.addEventListener('scroll', function() {
-        const navbar = document.getElementById('bottom-navbar');
+        const navbar = document.getElementById('navbar');
         if (window.scrollY > 0) {
             navbar.classList.add('fixed-bottom');
+
+
         } else {
             navbar.classList.remove('fixed-bottom');
         }
