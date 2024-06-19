@@ -62,200 +62,63 @@
 </nav>
 
 
-<div class="container-fluid">
-    <div class="row">
-        <!-- Toggle button for small screens -->
-        <div class="col-12 d-md-none">
-            <button class="btn btn-primary my-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-example3" aria-expanded="false" aria-controls="navbar-example3">
-                Toggle Navigation
-            </button>
-        </div>
-        <!-- Sidebar -->
-        <div class="col-md-2 col-12 collapse d-md-block" id="side-navbar">
-            <nav class="h-100 flex-column align-items-stretch pe-4 border-end">
-                <nav class="nav nav-pills flex-column">
-                    <a class="nav-link" href="#item-0">Calentamiento</a>
-                    <a class="nav-link" href="#item-1">NIVEL 1</a>
-                    <nav class="nav nav-pills flex-column">
-                        <a class="nav-link ms-3 my-1" href="#item-1-1">Abdomen</a>
-                        <nav class="nav nav-pills flex-column">
-                            <a class="nav-link ms-5 my-1" href="#item-1-1-1">Plancha Abdominal</a>
-                            <a class="nav-link ms-5 my-1" href="#item-1-1-2">Plancha Lateral</a>
-                        </nav>
-                        <a class="nav-link ms-3 my-1" href="#item-1-2">Empuje</a>
-                        <nav class="nav nav-pills flex-column">
-                            <a class="nav-link ms-5 my-1" href="#item-1-2-1">Flexiones de rodillas</a>
-                            <a class="nav-link ms-5 my-1" href="#item-1-2-2">Flexiones en banco</a>
-                        </nav>
+<!-- Card Basic-->
+<div class="card" style="width: 18rem;">
+    <a href="videos.html">
+        <img src="Fotos/brazo.jpeg" class="card-img-top" alt="Brazo">
+    </a>
+    <div class="card-body">
+        <h5 class="card-title">Brazo</h5>
+        <p class="card-text"> Lleva tus brazos al siguiente nivel.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+    </ul>
+    <div class="card-body">
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+    </div>
+</div>
 
-                        <a class="nav-link ms-3 my-1" href="#item-1-3">Tiron</a>
-                    </nav>
-                    <a class="nav-link" href="#item-2">Item 2</a>
-                    <a class="nav-link" href="#item-3">Item 3</a>
-                    <nav class="nav nav-pills flex-column">
-                        <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
-                        <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
-                    </nav>
-                </nav>
-            </nav>
-        </div>
+<!-- Card Intermedio-->
+<div class="card" style="width: 18rem;">
+    <a href="videos.html">
+        <img src="Fotos/brazo.jpeg" class="card-img-top" alt="Brazo">
+    </a>
+    <div class="card-body">
+        <h5 class="card-title">Brazo</h5>
+        <p class="card-text"> Lleva tus brazos al siguiente nivel.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+    </ul>
+    <div class="card-body">
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+    </div>
+</div>
 
-        <!-- Main Content -->
-        <div class="col-md-10 col-12">
-            <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
-                 class="scrollspy-example-2" tabindex="0">
-                <div id="item-0">
-                    <h4>Calentamiento</h4>
-                    <p>...</p>
-                </div>
-                <div id="item-1">
-                    <h4>Nivel 1</h4>
-                    <p>...</p>
-                </div>
-                <div id="item-1-1">
-                    <h5>Abdomen</h5>
-                    <br>
-                    <p>...</p>
-                </div>
-
-                <div id="item-1-1-1">
-                    <!-- Video Card Planch abdominal-->
-                    <div class="card border border-primary" >
-                        <div>
-                            <h1>Plancha Abdominal</h1>
-                            <video class= "rounded" width="100%" height="auto" controls>
-                                <source src="Videos/NIVEL%201(abdomen)/plancha%20abdominal.mp4" type="video/mp4">
-                                Tu navegador no soporta .mp4.
-                            </video>
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title">Plancha Abdominal</h3>
-                            <p class="card-text">Este ejercicio blabla..</p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">3 series de 30'</li>
-                            <li class="list-group-item">1:00 descanso</li>
-                        </ul>
-                    </div>
-
-                    <p>...</p>
-                </div>
-
-                <div id="item-1-1-2">
-                    <!-- Video Card planch lateral-->
-                    <div class="card border border-primary" >
-                        <div>
-                            <h1>Plancha Lateral</h1>
-                            <video class= "rounded" width="100%" height="auto" controls>
-                                <source src="Videos/estiramientos/antebrazos.mp4" type="video/mp4">
-                                Tu navegador no soporta .mp4.
-                            </video>
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title">Plancha Lateral</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">3 series de 20' plancha lateral</li>
-                            <li class="list-group-item">30´ descanso</li>
-
-                        </ul>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-                    </div>
-
-                    <div id="item-1-2">
-                        <h5>Empuje</h5>
-                        <br>
-                        <p>...</p>
-                    </div>
-
-                    <div id="item-1-2-1">
-                        <!-- Video Card flexiones de rodilla-->
-                        <div class="card border border-primary" >
-                            <div>
-                                <h1>Flexiones de rodillas</h1>
-                                <video class= "rounded" width="100%" height="auto" controls>
-                                    <source src="Videos/NIVEL%201(empuje)/flexiones%20de%20rodillas%20en%20banco.mp4" type="video/mp4">
-                                    Tu navegador no soporta .mp4.
-                                </video>
-                            </div>
-                            <div class="card-body">
-                                <h3 class="card-title">Flexiones de rodillas</h3>
-                                <p class="card-text">Este ejercicio blabla..</p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">series de 6-10 flexiones de rodillas en banco bajo</li>
-                                <li class="list-group-item">1:30 descanso</li>
-                            </ul>
-                        </div>
-
-                        <p>...</p>
-                    </div>
-
-                    <div id="item-1-2-2">
-                        <!-- Video Card flexiones en banco-->
-                        <div class="card border border-primary" >
-                            <div>
-                                <h1>Flexiones en banco</h1>
-                                <video class= "rounded" width="100%" height="auto" controls>
-                                    <source src="Videos/estiramientos/antebrazos.mp4" type="video/mp4">
-                                    Tu navegador no soporta .mp4.
-                                </video>
-                            </div>
-                            <div class="card-body">
-                                <h3 class="card-title">Flexiones en banco</h3>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"> 3 series de 6-8 flexiones en banco alto</li>
-                                <li class="list-group-item">1:30 descanso</li>
-
-                            </ul>
-                            <div class="card-body">
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
-                            </div>
-                        </div>
-
-                    <p>...</p>
-                </div>
-                <div id="item-2">
-                    <h4>Item 2</h4>
-                    <p>...</p>
-                </div>
-                <div id="item-2-1">
-                    <h4>Item 2</h4>
-                    <p>...</p>
-                </div>
-                <div id="item-2-1-1">
-                    <h4>Item 2</h4>
-                    <p>...</p>
-                </div>
-                <div id="item-2-1-2">
-                    <h4>Item 2</h4>
-                    <p>...</p>
-                </div>
-                <div id="item-3">
-                    <h4>Item 3</h4>
-                    <p>...</p>
-                </div>
-                <div id="item-3-1">
-                    <h5>Item 3-1</h5>
-                    <p>...</p>
-                </div>
-                <div id="item-3-1-1">
-                    <h5>Item 3-1-1</h5>
-                    <p>...</p>
-                </div>
-                <div id="item-3-1-2">
-                    <h5>Item 3-1-2</h5>
-                    <p>...</p>
-                </div>
-            </div>
-        </div>
+<!-- Card -->
+<div class="card" style="width: 18rem;">
+    <a href="videos.html">
+        <img src="Fotos/brazo.jpeg" class="card-img-top" alt="Brazo">
+    </a>
+    <div class="card-body">
+        <h5 class="card-title">Brazo</h5>
+        <p class="card-text"> Lleva tus brazos al siguiente nivel.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+    </ul>
+    <div class="card-body">
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
     </div>
 </div>
 
@@ -328,6 +191,8 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
 <script async src="//www.instagram.com/embed.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
 
