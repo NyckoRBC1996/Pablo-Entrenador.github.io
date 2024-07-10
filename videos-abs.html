@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Videos</title>
+    <title>Videos Abs</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
@@ -63,7 +63,7 @@
 
 
 <div class="container-fluid">
-    <h1 class="card-title">Videos Abdomen</h1>
+    <h1 class="card-title ">Videos Abdomen</h1>
 
 
     <!-- CALENTAMIENTO -->
@@ -88,8 +88,8 @@
                     <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse0-2" aria-expanded="false" aria-controls="multiCollapse0-2">Rutina</button>
                     <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse0-1 multiCollapse0-2">Video + Rutina</button>
                 </p>
-                <div class="row g-0">
-                    <div class="col col-md-8 col-sm-12">
+                <div class="row d-sm-flex ">
+                    <div class="col col-md-8 ">
                         <div class="collapse multi-collapse" id="multiCollapse0-1">
                             <div class="card card-body" >
                                 <h1 class="card-title">Plancha Lateral</h1>
@@ -103,7 +103,7 @@
                         </div>
                     </div>
 
-                    <div class="col col-md-4 col-sm-12">
+                    <div class="col ">
                         <div class="collapse multi-collapse" id="multiCollapse0-2">
                             <div class="card card-body">
                                 <p class="card-text">Este ejercicio blabla..</p>
@@ -121,18 +121,21 @@
     </div>
 
     <!-- NIVEL 1 -->
-    <p class="d-grid gap-2 col-6 mx-auto">
-        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
-            NIVEL 1
-            <span class="badge text-bg-danger rounded-pill">2</span>
-        </button>
-    </p>
-    <div class="collapse" id="collapse1">
 
-        <!-- Video Card Planch abdominal lvl 1-->
+    <p class="d-grid gap-2 col-5 mx-auto">
+
+        <button class="btn btn-outline-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+            NIVEL 1
+            <span class="badge text-bg-success rounded-pill">2</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse1">
+
+        <!-- Video Card Planch Frontal lvl 2-->
         <div class="card border border-primary" >
             <div class="card-body">
-                <h3 class="card-title">Plancha Abdominal</h3>
+                <h3 class="card-title">Plancha Frontal</h3>
                 <p class="d-inline-flex gap-1">
                     <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse1-1" role="button" aria-expanded="false" aria-controls="multiCollapse1-1">
                         <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
@@ -140,52 +143,53 @@
                     <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse1-2" aria-expanded="false" aria-controls="multiCollapse1-2">Rutina</button>
                     <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse1-1 multiCollapse1-2">Video + Rutina</button>
                 </p>
-                <div class="row">
-                    <div class="col">
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
                         <div class="collapse multi-collapse" id="multiCollapse1-1">
                             <div class="card card-body" >
                                 <h1 class="card-title">Plancha Lateral</h1>
 
                                 <video class= "rounded" height="auto" controls>
-                                    <source src="Videos/estiramientos/antebrazos.mp4" type="video/mp4">
+                                    <source src="Videos/Abdomen/plancha%20abdominal.mp4" type="video/mp4">
                                     Tu navegador no soporta .mp4.
                                 </video>
                             </div>
 
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="collapse multi-collapse" id="multiCollapse1-2">
-                        <div class="card card-body">
-                            <p class="card-text">Este ejercicio blabla..</p>
 
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">3 series de 30'</li>
-                                <li class="list-group-item">1:00 descanso</li>
-                            </ul>
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse1-2">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 30'</li>
+                                    <li class="list-group-item">1:00 descanso</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
 
-        <!-- Video Card Planch lateral lvl 1-->
+        <!-- Video Card Planch Lateral lvl -->
         <div class="card border border-primary" >
             <div class="card-body">
                 <h3 class="card-title">Plancha Lateral</h3>
                 <p class="d-inline-flex gap-1">
-                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse2-1" role="button" aria-expanded="false" aria-controls="multiCollapse2-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse1-3" role="button" aria-expanded="false" aria-controls="multiCollapse1-3">
                         <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
                     </a>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse2-2" aria-expanded="false" aria-controls="multiCollapse2-2">Rutina</button>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse2-1 multiCollapse2-2">Video + Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse1-4" aria-expanded="false" aria-controls="multiCollapse1-4">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse1-3 multiCollapse1-4">Video + Rutina</button>
                 </p>
-                <div class="row">
-                    <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapse2-1">
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse1-3">
                             <div class="card card-body" >
-                                <h1 class="card-title">Plancha Lateral</h1>
 
                                 <video class= "rounded" height="auto" controls>
                                     <source src="Videos/estiramientos/antebrazos.mp4" type="video/mp4">
@@ -195,19 +199,22 @@
 
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="collapse multi-collapse" id="multiCollapse2-2">
-                        <div class="card card-body">
-                            <p class="card-text">Este ejercicio blabla..</p>
 
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">3 series de 30'</li>
-                                <li class="list-group-item">1:00 descanso</li>
-                            </ul>
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse1-4">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 20' </li>
+                                    <li class="list-group-item">30' descanso</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+
             </div>
         </div>
     </div>
@@ -218,56 +225,16 @@
 
         <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
             NIVEL 2
+            <span class="badge text-bg-danger rounded-pill">2</span>
         </button>
 
     </p>
-    <div class="collapse" id="collapse2">
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse2">
 
-        <!-- Video Card Planch abdominal lvl 2-->
+        <!-- Video Card Planch Frontal lvl 2-->
         <div class="card border border-primary" >
             <div class="card-body">
-                <h3 class="card-title">Plancha Abdominal</h3>
-                <p class="d-inline-flex gap-1">
-                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse1-1" role="button" aria-expanded="false" aria-controls="multiCollapse1-1">
-                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
-                    </a>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse1-2" aria-expanded="false" aria-controls="multiCollapse1-2">Rutina</button>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse1-1 multiCollapse1-2">Video + Rutina</button>
-                </p>
-                <div class="row">
-                    <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapse1-1">
-                            <div class="card card-body" >
-                                <h1 class="card-title">Plancha Lateral</h1>
-
-                                <video class= "rounded" height="auto" controls>
-                                    <source src="Videos/estiramientos/antebrazos.mp4" type="video/mp4">
-                                    Tu navegador no soporta .mp4.
-                                </video>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="collapse multi-collapse" id="multiCollapse1-2">
-                        <div class="card card-body">
-                            <p class="card-text">Este ejercicio blabla..</p>
-
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">3 series de 30'</li>
-                                <li class="list-group-item">1:00 descanso</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Video Card Planch lateral lvl 2-->
-        <div class="card border border-primary" >
-            <div class="card-body">
-                <h3 class="card-title">Plancha Lateral</h3>
+                <h3 class="card-title">Plancha Frontal lvl 2</h3>
                 <p class="d-inline-flex gap-1">
                     <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse2-1" role="button" aria-expanded="false" aria-controls="multiCollapse2-1">
                         <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
@@ -275,9 +242,108 @@
                     <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse2-2" aria-expanded="false" aria-controls="multiCollapse2-2">Rutina</button>
                     <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse2-1 multiCollapse2-2">Video + Rutina</button>
                 </p>
-                <div class="row">
-                    <div class="col">
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
                         <div class="collapse multi-collapse" id="multiCollapse2-1">
+                            <div class="card card-body" >
+                                <h1 class="card-title">Plancha Lateral</h1>
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Abdomen/plancha%20abdominal.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse2-2">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 1:00</li>
+                                    <li class="list-group-item">1:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Video Card Planch Lateral lvl 2-->
+        <div class="card border border-primary" >
+            <div class="card-body">
+                <h3 class="card-title">Plancha Lateral</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse2-3" role="button" aria-expanded="false" aria-controls="multiCollapse2-3">
+                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse2-4" aria-expanded="false" aria-controls="multiCollapse2-4">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse2-3 multiCollapse2-4">Video + Rutina</button>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse2-3">
+                            <div class="card card-body" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/estiramientos/antebrazos.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse2-4">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 40' </li>
+                                    <li class="list-group-item">1:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- NIVEL 3 -->
+
+    <p class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+            NIVEL 3
+            <span class="badge text-bg-danger rounded-pill">2</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse3">
+
+        <!-- Video Card Planch Frontal lvl 3-->
+        <div class="card border border-primary" >
+            <div class="card-body">
+                <h3 class="card-title">Plancha Frontal lvl 3</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse3-1" role="button" aria-expanded="false" aria-controls="multiCollapse3-1">
+                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse3-2" aria-expanded="false" aria-controls="multiCollapse3-2">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse3-1 multiCollapse3-2">Video + Rutina</button>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse3-1">
                             <div class="card card-body" >
                                 <h1 class="card-title">Plancha Lateral</h1>
 
@@ -289,23 +355,767 @@
 
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="collapse multi-collapse" id="multiCollapse2-2">
-                        <div class="card card-body">
-                            <p class="card-text">Este ejercicio blabla..</p>
 
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">3 series de 30'</li>
-                                <li class="list-group-item">1:00 descanso</li>
-                            </ul>
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse3-2">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 1:00</li>
+                                    <li class="list-group-item">1:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Video Card Bichito Muerto (Cruzado) lvl 3-->
+        <div class="card border border-primary" >
+            <div class="card-body">
+                <h3 class="card-title">Bichito Muerto (Cruzado)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse3-3" role="button" aria-expanded="false" aria-controls="multiCollapse3-3">
+                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse3-4" aria-expanded="false" aria-controls="multiCollapse3-4">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse3-3 multiCollapse3-4">Video + Rutina</button>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse3-3">
+                            <div class="card card-body" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/estiramientos/antebrazos.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse3-4">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 10 </li>
+                                    <li class="list-group-item">1:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- NIVEL 4 -->
+
+    <p class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+            NIVEL 4
+            <span class="badge text-bg-danger rounded-pill">3</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse4">
+
+        <!-- Video Card Bichito Muerto (Cruzado) lvl 4-->
+        <div class="card border border-primary" >
+            <div class="card-body">
+                <h3 class="card-title">Bichito Muerto (Cruzado)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse4-1" role="button" aria-expanded="false" aria-controls="multiCollapse4-1">
+                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse4-2" aria-expanded="false" aria-controls="multiCollapse4-2">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse4-2 multiCollapse4-3">Video + Rutina</button>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse4-1">
+                            <div class="card card-body" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Abdomen/bichito%20muerto(cruzado).mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse4-2">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 10 </li>
+                                    <li class="list-group-item">1:00 descanso</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Video Card Planch Frontal lvl 4-->
+        <div class="card border border-primary" >
+            <div class="card-body">
+                <h3 class="card-title">Plancha Frontal</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse4-3" role="button" aria-expanded="false" aria-controls="multiCollapse4-3">
+                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse4-4" aria-expanded="false" aria-controls="multiCollapse4-4">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse4-3 multiCollapse4-4">Video + Rutina</button>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse4-3">
+                            <div class="card card-body" >
+                                <h1 class="card-title">Plancha Frontal</h1>
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Abdomen/plancha%20abdominal.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse4-4">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 1:00</li>
+                                    <li class="list-group-item">30' descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Planch Lateral lvl 4-->
+        <div class="card border border-primary" >
+            <div class="card-body">
+                <h3 class="card-title">Plancha Lateral</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse4-5" role="button" aria-expanded="false" aria-controls="multiCollapse4-5">
+                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse4-6" aria-expanded="false" aria-controls="multiCollapse4-6">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse4-5 multiCollapse4-6">Video + Rutina</button>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse4-5">
+                            <div class="card card-body" >
+                                <h1 class="card-title">Plancha Lateral</h1>
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Abdomen/plancha%20lateral.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse4-6">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 30'</li>
+                                    <li class="list-group-item">30' descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 
+    <!-- NIVEL 5 -->
+
+    <p class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+            NIVEL 5
+            <span class="badge text-bg-danger rounded-pill">3</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse5">
+
+        <!-- Video Card Hollow lvl 5-->
+        <div class="card border border-primary" >
+            <div class="card-body">
+                <h3 class="card-title">3x30' Hollow</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse5-1" role="button" aria-expanded="false" aria-controls="multiCollapse5-1">
+                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse5-2" aria-expanded="false" aria-controls="multiCollapse5-2">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse5-1 multiCollapse5-2">Video + Rutina</button>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse5-1">
+                            <div class="card card-body" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Abdomen/hollow.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse5-2">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 30' </li>
+                                    <li class="list-group-item">1:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Crunch lvl 5-->
+        <div class="card border border-primary" >
+            <div class="card-body">
+                <h3 class="card-title">Crunch (Suelo)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse5-3" role="button" aria-expanded="false" aria-controls="multiCollapse5-3">
+                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse5-4" aria-expanded="false" aria-controls="multiCollapse5-4">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse5-3 multiCollapse5-4">Video + Rutina</button>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse5-3">
+                            <div class="card card-body" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Abdomen/plancha%20lateral.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse5-4">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 15</li>
+                                    <li class="list-group-item">30' descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Planch Frontal lvl 5-->
+        <div class="card border border-primary" >
+            <div class="card-body">
+                <h3 class="card-title">Plancha Frontal</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse5-5" role="button" aria-expanded="false" aria-controls="multiCollapse5-5">
+                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse5-6" aria-expanded="false" aria-controls="multiCollapse5-6">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse5-5 multiCollapse5-6">Video + Rutina</button>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse5-5">
+                            <div class="card card-body" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Abdomen/plancha%20abdominal.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse5-6">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 1:00</li>
+                                    <li class="list-group-item">30' descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <!-- NIVEL 6 -->
+
+    <p class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+            NIVEL 6
+            <span class="badge text-bg-danger rounded-pill">3</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse6">
+
+        <!-- Video Card Hollow lvl 6-->
+        <div class="card border border-primary" >
+            <div class="card-body">
+                <h3 class="card-title">3x30' Hollow</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse6-1" role="button" aria-expanded="false" aria-controls="multiCollapse6-1">
+                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse6-2" aria-expanded="false" aria-controls="multiCollapse6-2">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse6-1 multiCollapse6-2">Video + Rutina</button>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse6-1">
+                            <div class="card card-body" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Abdomen/hollow.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse6-2">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 30' </li>
+                                    <li class="list-group-item">1:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Knee Raises lvl 6-->
+        <div class="card border border-primary" >
+            <div class="card-body">
+                <h3 class="card-title">Knee Raises</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse6-3" role="button" aria-expanded="false" aria-controls="multiCollapse6-3">
+                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse6-4" aria-expanded="false" aria-controls="multiCollapse6-4">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse6-3 multiCollapse6-4">Video + Rutina</button>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse6-3">
+                            <div class="card card-body" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Abdomen/knee%20raises.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse6-4">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 15</li>
+                                    <li class="list-group-item">1:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Planch Lateral lvl 6-->
+        <div class="card border border-primary" >
+            <div class="card-body">
+                <h3 class="card-title">Plancha Lateral</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse6-5" role="button" aria-expanded="false" aria-controls="multiCollapse6-5">
+                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse6-6" aria-expanded="false" aria-controls="multiCollapse6-6">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse6-5 multiCollapse6-6">Video + Rutina</button>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse6-5">
+                            <div class="card card-body" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Abdomen/plancha%20lateral.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse6-6">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 40'</li>
+                                    <li class="list-group-item">30' descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <!-- NIVEL 7 -->
+
+    <p class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+            NIVEL 7
+            <span class="badge text-bg-danger rounded-pill">3</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse7">
+
+        <!-- Video Card Hollow lvl 7-->
+        <div class="card border border-primary" >
+            <div class="card-body">
+                <h3 class="card-title">3x40' Hollow</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse7-1" role="button" aria-expanded="false" aria-controls="multiCollapse7-1">
+                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse7-2" aria-expanded="false" aria-controls="multiCollapse7-2">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse7-1 multiCollapse7-2">Video + Rutina</button>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse7-1">
+                            <div class="card card-body" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Abdomen/hollow.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse7-2">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 40' </li>
+                                    <li class="list-group-item">1:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card L Raises lvl 7-->
+        <div class="card border border-primary" >
+            <div class="card-body">
+                <h3 class="card-title">Knee Raises (Paralelas)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse7-3" role="button" aria-expanded="false" aria-controls="multiCollapse7-3">
+                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse7-4" aria-expanded="false" aria-controls="multiCollapse7-4">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse7-3 multiCollapse7-4">Video + Rutina</button>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse7-3">
+                            <div class="card card-body" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Abdomen/leg%20raises%20a%20L.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse7-4">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 15</li>
+                                    <li class="list-group-item">1:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Planch Frontal Adv lvl 7-->
+        <div class="card border border-primary" >
+            <div class="card-body">
+                <h3 class="card-title">Planch Frontal Avanzada</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse7-5" role="button" aria-expanded="false" aria-controls="multiCollapse7-5">
+                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse6-6" aria-expanded="false" aria-controls="multiCollapse7-6">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse7-5 multiCollapse7-6">Video + Rutina</button>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse7-5">
+                            <div class="card card-body" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Abdomen/plancha%20abdominal(avanzada).mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse7-6">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 1:00</li>
+                                    <li class="list-group-item">1:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <!-- NIVEL 8 -->
+
+    <p class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+            NIVEL 8
+            <span class="badge text-bg-danger rounded-pill">3</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse8">
+
+        <!-- Video Card Bichito Muerto lvl 8-->
+        <div class="card border border-primary" >
+            <div class="card-body">
+                <h3 class="card-title">3x10 Bichito Muerto</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse8-1" role="button" aria-expanded="false" aria-controls="multiCollapse8-1">
+                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse8-2" aria-expanded="false" aria-controls="multiCollapse8-2">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse8-1 multiCollapse8-2">Video + Rutina</button>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse8-1">
+                            <div class="card card-body" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Abdomen/bichito%20muerto.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse8-2">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 10 </li>
+                                    <li class="list-group-item">1:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card L Raises en Barra lvl 8-->
+        <div class="card border border-primary" >
+            <div class="card-body">
+                <h3 class="card-title">Knee Raises (Barra)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse8-3" role="button" aria-expanded="false" aria-controls="multiCollapse8-3">
+                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse8-4" aria-expanded="false" aria-controls="multiCollapse8-4">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse8-3 multiCollapse8-4">Video + Rutina</button>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse8-3">
+                            <div class="card card-body" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Abdomen/leg%20raises%20a%20L%20en%20barra%20alta.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse8-4">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 10</li>
+                                    <li class="list-group-item">1:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Planch Frontal Adv lvl 8-->
+        <div class="card border border-primary" >
+            <div class="card-body">
+                <h3 class="card-title">Planch Frontal Avanzada</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success btn-image" data-bs-toggle="collapse" href="#multiCollapse8-5" role="button" aria-expanded="false" aria-controls="multiCollapse8-5">
+                        <img src="Logo/video.png" alt="Videos" style="width: 2rem;"> Ver video
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse8-6" aria-expanded="false" aria-controls="multiCollapse8-6">Rutina</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse8-5 multiCollapse8-6">Video + Rutina</button>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse8-5">
+                            <div class="card card-body" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Abdomen/plancha%20abdominal(avanzada).mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse8-6">
+                            <div class="card card-body">
+                                <p class="card-text">Este ejercicio blabla..</p>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">3 series de 1:00</li>
+                                    <li class="list-group-item">1:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
 
 
 
