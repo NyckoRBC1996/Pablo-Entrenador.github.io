@@ -7,6 +7,45 @@
     color: white; /* Color del texto */
 }
 
+.background-park{
+    background-image: url('Fotos/mural.jpg');
+    background-size: cover; /* Para que la imagen cubra todo el contenedor */
+    background-position: center; /* Para centrar la imagen */
+    align-items: center; /* Centra el contenido verticalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    color: white; /* Color del texto */
+}
+
+.background-abd{
+    background-image: url('Fotos/vsite-dibujo.jpeg');
+    background-size: cover; /* Para que la imagen cubra todo el contenedor */
+    background-position: center; /* Para centrar la imagen */
+    align-items: center; /* Centra el contenido verticalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    color: white; /* Color del texto */
+}
+
+.background-empuje{
+    background-image: url('Fotos/empuje-dibujo.jpeg');
+    background-size: cover; /* Para que la imagen cubra todo el contenedor */
+    background-position: center; /* Para centrar la imagen */
+    align-items: center; /* Centra el contenido verticalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    color: white; /* Color del texto */
+}
+
+.background-tiron{
+    background-image: url('Fotos/muscleup.jpeg');
+    background-size: cover; /* Para que la imagen cubra todo el contenedor */
+    background-position: center; /* Para centrar la imagen */
+    align-items: center; /* Centra el contenido verticalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    color: white; /* Color del texto */
+}
+
+
+
+
 .background-ej {
     background-image: url('Fotos/pablo.jpeg');
     background-size: cover; /* Para que la imagen cubra todo el contenedor */
