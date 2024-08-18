@@ -2,9 +2,1961 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tirón Basic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
+<nav class="navbar bg-dark navbar-expand-lg border-bottom border-body " data-bs-theme="dark" id="navbar">
+    <div class="container-fluid ">
+
+        <a class="navbar-brand" href="index.html">Pablo SW</a>
+
+        <a class="navbar-brand" href="index.html">Pablo SW</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Bienvendid@ !!</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Videos
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="videos.html#item-0">Calentamiento</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="videos.html#item-1">Nivel 1</a></li>
+                            <li><a class="dropdown-item" href="videos.html#item-2">Nivel 2</a></li>
+                            <li><a class="dropdown-item" href="videos.html#item-3">Nivel 3</a></li>
+                            <li><a class="dropdown-item" href="videos.html#item-4">Nivel 4</a></li>
+                            <li><a class="dropdown-item" href="videos.html#item-5">Nivel 5</a></li>
+                            <li><a class="dropdown-item" href="videos.html#item-6">Nivel 6</a></li>
+                            <li><a class="dropdown-item" href="videos.html#item-7">Nivel 7</a></li>
+                            <li><a class="dropdown-item" href="videos.html#item-8">Nivel 8</a></li>
+                            <li><a class="dropdown-item" href="videos.html#item-9">Nivel 9</a></li>
+                            <li><a class="dropdown-item" href="videos.html">Nivel 0</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container-fluid background-abd p-3">
+    <h1 class="card-title ">Rutina Basica: Tirón</h1>
+
+    <!-- DOWNLOAD BOOTON -->
+
+    <p class="d-grid gap-2 col-3 mx-auto mt-4">
+
+        <button class="btn btn-primary" type="button" onclick="downloadBasicTiron()" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+            </svg>
+            RUTINAS
+        </button>
+
+    </p>
+
+    <!-- NIVEL 1 -->
+
+    <p class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+            NIVEL 1
+            <span class="badge text-bg-danger rounded-pill">2</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse1">
+
+        <!-- Video Card Dominadas Supinas (Suelo) lvl 1-->
+        <div class="card border border-success text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 8-12 Supinas (Suelo)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success " data-bs-toggle="collapse" data-bs-target="#multiCollapse1-1, #multiCollapse1-2" role="button" aria-expanded="false" aria-controls="multiCollapse1-1 multiCollapse1-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse1-1">
+                            <div class="card border-success text-bg-dark mb-3" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20supinas%20en%20suelo.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse1-2">
+                            <div class="card border-success text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 8-12</li>
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Video Card Australianas (Pronas) lvl 1-->
+        <div class="card border border-success text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 8-12 Australianas (Pronas)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success" data-bs-toggle="collapse" data-bs-target="#multiCollapse1-3, #multiCollapse1-4" role="button" aria-expanded="false" aria-controls="multiCollapse1-3 multiCollapse1-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse1-3">
+                            <div class="card border-success bg-dark mb-3" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/australianas%20pronas(pies%20estirados).mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse1-4">
+                            <div class="card border-success text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 8-12</li>
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- NIVEL 2 -->
+
+    <p class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+            NIVEL 2
+            <span class="badge text-bg-danger rounded-pill">2</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse2">
+
+        <!-- Video Card Dominadas Supinas (Suelo) lvl 2-->
+        <div class="card border border-success text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 15 Supinas (Suelo)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success " data-bs-toggle="collapse" data-bs-target="#multiCollapse2-1, #multiCollapse2-2" role="button" aria-expanded="false" aria-controls="multiCollapse2-1 multiCollapse2-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse2-1">
+                            <div class="card border-success text-bg-dark mb-3" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20supinas%20en%20suelo.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse2-2">
+                            <div class="card border-success text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 15</li>
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Video Card Australianas (Pronas) lvl 2-->
+        <div class="card border border-success text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 12 Australianas (Pronas)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success" data-bs-toggle="collapse" data-bs-target="#multiCollapse2-3, #multiCollapse2-4" role="button" aria-expanded="false" aria-controls="multiCollapse2-3 multiCollapse2-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse2-3">
+                            <div class="card border-success bg-dark mb-3" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/australianas%20pronas(pies%20estirados).mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse2-4">
+                            <div class="card border-success text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 12</li>
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- NIVEL 3 -->
+
+    <p class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+            NIVEL 3
+            <span class="badge text-bg-danger rounded-pill">2</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse3">
+
+        <!-- Video Card Dominadas Pronas (Suelo) lvl 3-->
+        <div class="card border border-success text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title"> 3 x 12-15 Pronas (Suelo)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success" data-bs-toggle="collapse" data-bs-target="#multiCollapse3-1, #multiCollapse3-2" role="button" aria-expanded="false" aria-controls="multiCollapse3-1 multiCollapse3-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse3-1">
+                            <div class="card border border-success text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20pronas%20en%20suelo.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse3-2">
+                            <div class="card border border-success text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 12-15</li>
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Video Card Dominadas Supinas (Suelo) lvl 3-->
+        <div class="card border border-success text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 12-15 Supinas (Suelo)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success" data-bs-toggle="collapse" data-bs-target="#multiCollapse3-3, #multiCollapse3-4" role="button" aria-expanded="false" aria-controls="multiCollapse3-3 multiCollapse3-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse3-3">
+                            <div class="card border border-success text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20supinas%20en%20suelo.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse3-4">
+                            <div class="card border border-success text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 12-15 </li>
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- Video Card Australianas (Pronas) lvl 3-->
+        <div class="card border border-success text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 15 Australianas (Pronas)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success" data-bs-toggle="collapse" data-bs-target="#multiCollapse3-5, #multiCollapse3-6" role="button" aria-expanded="false" aria-controls="multiCollapse3-5 multiCollapse3-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse3-5">
+                            <div class="card border-success bg-dark mb-3" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/australianas%20pronas(pies%20estirados).mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse3-6">
+                            <div class="card border-success text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 15</li>
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">1:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- NIVEL 4 -->
+
+    <p class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+            NIVEL 4
+            <span class="badge text-bg-danger rounded-pill">3</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse4">
+
+        <!-- Video Card Dominadas Supinas (Banco bajo) lvl 4-->
+        <div class="card border-success text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 10-12 Supinas (Banco bajo)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success" data-bs-toggle="collapse" data-bs-target="#multiCollapse4-1, #multiCollapse4-2" role="button" aria-expanded="false" aria-controls="multiCollapse4-1 multiCollapse4-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse4-1">
+                            <div class="card border-success text-bg-dark mb-3" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20supinas%20en%20banco%20bajo.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse4-2">
+                            <div class="card border-success text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 10-12 </li>
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Dominadas Pronas (Suelo) lvl 4-->
+        <div class="card border-success text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 15 Pronas (Suelo)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success" data-bs-toggle="collapse" data-bs-target="#multiCollapse4-3, #multiCollapse4-4" role="button" aria-expanded="false" aria-controls="multiCollapse4-3 multiCollapse4-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse4-3">
+                            <div class="card border-success text-bg-dark mb-3" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20pronas%20en%20suelo.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse4-4">
+                            <div class="card border-success text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 15</li>
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card EMOM: Australianas (Pronas) lvl 4-->
+        <div class="card border-success text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">EMOM 5': 12 Australianas (Pronas)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-success" data-bs-toggle="collapse" data-bs-target="#multiCollapse4-5, #multiCollapse4-6" role="button" aria-expanded="false" aria-controls="multiCollapse4-5 multiCollapse4-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse4-5">
+                            <div class="card border-success text-bg-dark mb-3" >
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/Emom%20australianas%20pronas.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse4-6">
+                            <div class="card border-success text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">EMOM: 12</li>
+                                    <li class="list-group-item border-success text-bg-dark " style="--bs-bg-opacity: .8;">5' descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- NIVEL 5 -->
+
+    <p class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+            NIVEL 5
+            <span class="badge text-bg-danger rounded-pill">3</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse5">
+
+        <!-- Video Card Dominadas Supinas (Banco bajo) lvl 5-->
+        <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 15 Supinas (Banco bajo)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-warning " data-bs-toggle="collapse" data-bs-target="#multiCollapse5-1, #multiCollapse5-2" role="button" aria-expanded="false" aria-controls="multiCollapse5-1 multiCollapse5-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse5-1">
+                            <div class="card border-warning text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20supinas%20en%20banco%20bajo.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse5-2">
+                            <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 15 </li>
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Dominadas Pronas (Banco bajo) lvl 5-->
+        <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 10-12 Pronas (Banco bajo</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-warning" data-bs-toggle="collapse" data-bs-target="#multiCollapse5-3, #multiCollapse5-4" role="button" aria-expanded="false" aria-controls="multiCollapse5-3 multiCollapse5-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse5-3">
+                            <div class="card border-warning text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20pronas%20en%20banco%20bajo.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse5-4">
+                            <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 10-12</li>
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Biserie: Pronas (Suelo) & Australianas (Pronas) / 1:00 descanso lvl 5-->
+        <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 Biseries:<br> 10 Pronas (Suelo) +<br> 10 Australianas (Pronas)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-warning" data-bs-toggle="collapse" data-bs-target="#multiCollapse5-5, #multiCollapse5-6" role="button" aria-expanded="false" aria-controls="multiCollapse5-5 multiCollapse5-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse5-5">
+                            <div class="card border-warning text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/biserie%20pronas%20en%20suelo%20+%20australianas.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse5-6">
+                            <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">3 Biseries:<br> 10 Pronas (Suelo) <br>+<br> 10 Australianas (Pronas)</li>
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">1:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- NIVEL 6 -->
+
+    <p class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+            NIVEL 6
+            <span class="badge text-bg-danger rounded-pill">3</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse6">
+
+        <!-- Video Card Negativas Dominadas Supinas (Barra baja) lvl 6-->
+        <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 4 Negativas de Supinas <br>(Barra baja)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-warning" data-bs-toggle="collapse" data-bs-target="#multiCollapse6-1, #multiCollapse6-2" role="button" aria-expanded="false" aria-controls="multiCollapse6-1 multiCollapse6-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse6-1">
+                            <div class="card border-warning text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/negativas%20de%20supinas%20en%20barra%20baja.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse6-2">
+                            <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 4</li>
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Dominadas Pronas (Banco bajo) lvl 6-->
+        <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 12-15 Pronas (Banco bajo)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-warning" data-bs-toggle="collapse" data-bs-target="#multiCollapse6-3, #multiCollapse6-4" role="button" aria-expanded="false" aria-controls="multiCollapse6-3 multiCollapse6-4">
+                        <<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                        <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                    </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse6-3">
+                            <div class="card border-warning text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20pronas%20en%20banco%20bajo.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse6-4">
+                            <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 12-15</li>
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Remos (Rodillas apoyadas) lvl 6-->
+        <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 10-12 Remos (Rodillas apoyadas)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-warning" data-bs-toggle="collapse" data-bs-target="#multiCollapse6-5, #multiCollapse6-6" role="button" aria-expanded="false" aria-controls="multiCollapse6-5 multiCollapse6-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse6-5">
+                            <div class="card border-warning text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/remos%20con%20rodillas%20apoyadas%20en%20paralelas.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse6-6">
+                            <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 10-12</li>
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- NIVEL 7 -->
+
+    <p class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+            NIVEL 7
+            <span class="badge text-bg-danger rounded-pill">3</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse7">
+
+        <!-- Video Card Negativas Dominadas Supinas (Barra baja) lvl 7-->
+        <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 6 Negativas de Supinas <br>(Barra baja)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-warning" data-bs-toggle="collapse" data-bs-target="#multiCollapse7-1, #multiCollapse7-2" role="button" aria-expanded="false" aria-controls="multiCollapse7-1 multiCollapse7-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse7-1">
+                            <div class="card border-warning text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/negativas%20de%20supinas%20en%20barra%20baja.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse7-2">
+                            <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 6</li>
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Dominadas Pronas (Banco bajo) lvl 7-->
+        <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 12-15 Pronas (Banco + alto)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-warning" data-bs-toggle="collapse" data-bs-target="#multiCollapse7-3, #multiCollapse7-4" role="button" aria-expanded="false" aria-controls="multiCollapse7-3 multiCollapse7-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse7-3">
+                            <div class="card border-warning text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20pronas%20en%20banco%20bajo.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse7-4">
+                            <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 12-15</li>
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Triseries : Remos (Rodillas apoyadas)+ Pronas (Suelo) + Australianas (Pronas) lvl 7-->
+        <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 Triseries : <br> 8 Remos (Rodillas apoyadas) +<br> 8 Pronas (Suelo) +<br> 8 Australianas (Pronas)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-warning" data-bs-toggle="collapse" data-bs-target="#multiCollapse7-5, #multiCollapse7-6" role="button" aria-expanded="false" aria-controls="multiCollapse7-5 multiCollapse7-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse7-5">
+                            <div class="card border-warning text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/triserie%20de%20remos%20+%20pronas%20en%20suelo%20+%20australianas.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse7-6">
+                            <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">3 Triseries : <br> 8 Remos (Rodillas apoyadas) +<br>  8 Pronas (Suelo) +<br> 8 Australianas (Pronas)</li>
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- NIVEL 8 -->
+
+    <p class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+            NIVEL 8
+            <span class="badge text-bg-danger rounded-pill">3</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse8">
+
+        <!-- Video Card Dominadas Supinas con banda lvl 8-->
+        <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 4-6 Supinas con banda (Grosor medio)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-warning" data-bs-toggle="collapse" data-bs-target="#multiCollapse8-1, #multiCollapse8-2" role="button" aria-expanded="false" aria-controls="multiCollapse8-1 multiCollapse8-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse8-1">
+                            <div class="card border-warning text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20supinas%20con%20banda(mediano%20grosor).mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse8-2">
+                            <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 4-6 con banda de grosor medio</li>
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Negativas Dominadas Pronas (Barra baja) lvl 8-->
+        <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 6 Negativas Prono (Barra baja)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-warning" data-bs-toggle="collapse" data-bs-target="#multiCollapse8-3, #multiCollapse8-4" role="button" aria-expanded="false" aria-controls="multiCollapse8-3 multiCollapse8-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse8-3">
+                            <div class="card border-warning text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/negativas%20de%20supinas%20en%20barra%20baja.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse8-4">
+                            <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 6</li>
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Dominadas Pronas (Banco bajo) lvl 8-->
+        <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 15 Pronas (Banco bajo)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-warning" data-bs-toggle="collapse" data-bs-target="#multiCollapse8-5, #multiCollapse8-6" role="button" aria-expanded="false" aria-controls="multiCollapse8-5 multiCollapse8-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse8-5">
+                            <div class="card border-warning text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20pronas%20en%20banco%20bajo.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse8-6">
+                            <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 15</li>
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card EMOM: Australianas (Pronas) lvl 8-->
+        <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">EMOM 5': 12 Australianas (Pronas)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-warning" data-bs-toggle="collapse" data-bs-target="#multiCollapse8-7, #multiCollapse8-8" role="button" aria-expanded="false" aria-controls="multiCollapse8-7 multiCollapse8-8">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multiCollapse8-7">
+                            <div class="card border-warning text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20pronas%20en%20banco%20bajo.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multiCollapse8-8">
+                            <div class="card border-warning text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">EMOM: 12</li>
+                                    <li class="list-group-item border-warning text-bg-dark " style="--bs-bg-opacity: .8;">5' descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- NIVEL 9 -->
+
+    <p class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+            NIVEL 9
+            <span class="badge text-bg-primary rounded-pill">4</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse9">
+
+        <!-- Video Card Dominadas Supinas con banda o saltito lvl 9-->
+        <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 4-6 Supinas con Saltito o Banda (Azul) </h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" data-bs-target="#multicollapse9-1, #multicollapse9-2" role="button" aria-expanded="false" aria-controls="multicollapse9-1 multicollapse9-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multicollapse9-1">
+                            <div class="card border-danger text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20supinas%20con%20saltito.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multicollapse9-2">
+                            <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 4-6 con saltito o banda azul</li>
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">2:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Negativas Dominadas Pronas + STOP 90° lvl 9-->
+        <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 6 Negativas Prono + STOP 1' a 90°</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" data-bs-target="#multicollapse9-3, #multicollapse9-4" role="button" aria-expanded="false" aria-controls="multicollapse9-3 multicollapse9-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multicollapse9-3">
+                            <div class="card border-danger text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/negativas%20de%20pronas%20+%20stop%201´%20a%2090º.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multicollapse9-4">
+                            <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 6 + STOP 1' a 90°</li>
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Biserie: Pronas (Banco bajo) + Pronas (Suelo) lvl 9-->
+        <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 Biserie: 12 Pronas (Banco bajo) <br> 12 Pronas (Suelo)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" data-bs-target="#multicollapse9-5, #multicollapse9-6" role="button" aria-expanded="false" aria-controls="multicollapse9-5 multicollapse9-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multicollapse9-5">
+                            <div class="card border-danger text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/biserie%20pronas%20en%20banco%20+%20pronas%20en%20suelo.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multicollapse9-6">
+                            <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">3 Biserie: 12 Pronas (Banco bajo) <br> 12 Pronas (Suelo)</li>
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Remo (Rodilla apoyada) lvl 9-->
+        <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 10 Remo (Rodilla apoyada)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" data-bs-target="#multicollapse9-7, #multicollapse9-8" role="button" aria-expanded="false" aria-controls="multicollapse9-7 multicollapse9-8">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multicollapse9-7">
+                            <div class="card border-danger text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/remos%20con%20rodillas%20apoyadas%20en%20paralelas.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multicollapse9-8">
+                            <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 10</li>
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- NIVEL 10 -->
+
+    <p class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+            NIVEL 10
+            <span class="badge text-bg-primary rounded-pill">4</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse10">
+
+        <!-- Video Card Dominadas Supinas lvl 10-->
+        <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">2 x 2-3 Supinas</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" data-bs-target="#multicollapse10-1, #multicollapse10-2" role="button" aria-expanded="false" aria-controls="multicollapse10-1 multicollapse10-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multicollapse10-1">
+                            <div class="card border-danger text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20supinas.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multicollapse10-2">
+                            <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">2 series de 2-3</li>
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">2:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Dominadas Supinas + Negativa lenta lvl 10-->
+        <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">2 x 4 Supinas (Saltito) + <br>Negativa (Lenta)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" data-bs-target="#multicollapse10-3, #multicollapse10-4" role="button" aria-expanded="false" aria-controls="multicollapse10-3 multicollapse10-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multicollapse10-3">
+                            <div class="card border-danger text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20supinas%20con%20saltito%20+%20negativa%20lenta.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multicollapse10-4">
+                            <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">2 series de 4</li>
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">2:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Dominadas Pronas (Banco alto) lvl 10-->
+        <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 15 Pronas (Banco alto)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" data-bs-target="#multicollapse10-5, #multicollapse10-6" role="button" aria-expanded="false" aria-controls="multicollapse10-5 multicollapse10-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multicollapse10-5">
+                            <div class="card border-danger text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20pronas%20en%20banco%20bajo.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multicollapse10-6">
+                            <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 15 (Banco alto)</li>
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card EMOM: Remos (Rodillas apoyadas) lvl 10-->
+        <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">EMOM 5': 10 Remos (Rodillas apoyadas)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" data-bs-target="#multicollapse10-7, #multicollapse10-8" role="button" aria-expanded="false" aria-controls="multicollapse10-7 multicollapse10-8">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multicollapse10-7">
+                            <div class="card border-danger text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/remos%20con%20rodillas%20apoyadas%20en%20paralelas.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multicollapse10-8">
+                            <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">EMOM: 10</li>
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">descansos de 5'</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- NIVEL 11 -->
+
+    <p class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+            NIVEL 11
+            <span class="badge text-bg-primary rounded-pill">4</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse11">
+
+        <!-- Video Card Dominadas Supinas (Saltito o Banda) lvl 11-->
+        <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 6 Supinas (Saltito o Banda)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" data-bs-target="#multicollapse11-1, #multicollapse11-2" role="button" aria-expanded="false" aria-controls="multicollapse11-1 multicollapse11-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multicollapse11-1">
+                            <div class="card border-danger text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20supinas%20con%20saltito.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multicollapse11-2">
+                            <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 6 </li>
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">2:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Negativas Dominadas Pronas lvl 11-->
+        <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 6 Negativas Prono</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" data-bs-target="#multicollapse11-3, #multicollapse11-4" role="button" aria-expanded="false" aria-controls="multicollapse11-3 multicollapse11-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multicollapse11-3">
+                            <div class="card border-danger text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/negativas%20de%20dominadas%20pronas%20en%20barra%20baja.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multicollapse11-4">
+                            <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 6</li>
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Dominadas Pronas (Banco) lvl 11-->
+        <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 15 Pronas (Banco)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" data-bs-target="#multicollapse11-5, #multicollapse11-6" role="button" aria-expanded="false" aria-controls="multicollapse11-5 multicollapse11-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multicollapse11-5">
+                            <div class="card border-danger text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20pronas%20en%20banco%20bajo.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multicollapse11-6">
+                            <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 15</li>
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Cluster: Australianas (Pronas) lvl 11-->
+        <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">Cluster: 10-10-9-9-8-8 Australianas (Pronas)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" data-bs-target="#multicollapse11-7, #multicollapse11-8" role="button" aria-expanded="false" aria-controls="multicollapse11-7 multicollapse11-8">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multicollapse11-7">
+                            <div class="card border-danger text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/cluster%20de%20australianas%20pronas.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multicollapse11-8">
+                            <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">Cluster: 10-10-9-9-8-8</li>
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">20' descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- NIVEL 12 -->
+
+    <p class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+            NIVEL 12
+            <span class="badge text-bg-primary rounded-pill">4</span>
+        </button>
+
+    </p>
+    <div class="collapse gap-2 col-md-8 mx-auto" id="collapse12">
+
+        <!-- Video Card Dominadas Supinas (Saltito o Banda) lvl 12-->
+        <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 8 Supinas (Saltito o Banda) +<br> Negativa (Lenta)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" data-bs-target="#multicollapse12-1, #multicollapse12-2" role="button" aria-expanded="false" aria-controls="multicollapse12-1 multicollapse12-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multicollapse12-1">
+                            <div class="card border-danger text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/dominadas%20supinas%20con%20banda(mediano%20grosor).mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multicollapse12-2">
+                            <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 8</li>
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">2:00 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card Negativas Dominadas Pronas (Barra baja) + Isometrico (Arriba y Medio) lvl 12-->
+        <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">3 x 6 Negativas Prono + Isometrico (Arriba y Medio)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" data-bs-target="#multicollapse12-3, #multicollapse12-4" role="button" aria-expanded="false" aria-controls="multicollapse12-3 multicollapse12-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multicollapse12-3">
+                            <div class="card border-danger text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/negativas%20de%20dominadas%20pronas%20en%20barra%20baja.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multicollapse12-4">
+                            <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">3 series de 6</li>
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">1:30 descanso</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Card EMOM: Pronas (Banco) lvl 12-->
+        <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .6;">
+            <div class="card-body">
+                <h3 class="card-title">EMOM 5': 12 Pronas (Banco)</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" data-bs-target="#multicollapse12-5, #multicollapse12-6" role="button" aria-expanded="false" aria-controls="multicollapse12-5 multicollapse12-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        </svg> Video + Rutina
+                    </a>
+                </p>
+                <div class="row d-sm-flex d-md-flex ">
+                    <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-8">
+                        <div class="collapse multi-collapse" id="multicollapse12-5">
+                            <div class="card border-danger text-bg-dark mb-3">
+
+                                <video class= "rounded" height="auto" controls>
+                                    <source src="Videos/Tirón%20basic/Emom%20pronas%20en%20banco.mp4" type="video/mp4">
+                                    Tu navegador no soporta .mp4.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 ">
+                        <div class="collapse multi-collapse" id="multicollapse12-6">
+                            <div class="card border-danger text-bg-dark mb-3" style="--bs-bg-opacity: .8;">
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">EMOM: 12</li>
+                                    <li class="list-group-item border-danger text-bg-dark " style="--bs-bg-opacity: .8;">descansos de 5'</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<footer class=" bg-dark text-bg-dark p-3 mt-0">
+    <div class="row d-sm-flex d-md-flex d-lg-flex">
+        <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-6">
+            <h4>Contacto</h4>
+            <div class="mb-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                    <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                </svg> 093950041
+            </div>
+            <div class="mb-2" style="font-size: 13px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                    <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/>
+                    <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+                </svg> pablosw@gmail.com
+            </div>
+
+        </div>
+
+        <div class="col col-sm-6 mb-3 mb-sm-0 col-lg-6">
+            <h4>Redes Sociales</h4>
+
+            <div class="mb-2">
+
+                <a class="btn btn-outline-danger" href="https://www.instagram.com/pablosw_entrenador" target="_blank"  aria-label="instagram pablosw_entrenador">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                    </svg>
+                </a>
+
+                <a class="btn btn-outline-light" href="https://www.tiktok.com/@pablosw_entrenador" target="_blank"  aria-label="tiktok pablosw_entrenador">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                        <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+                    </svg>
+                </a>
+            </div>
+
+            <a class="btn btn-outline-primary" href="https://www.linkedin.com/in/nicol%C3%A1s-bernal" target="_blank"  aria-label="linkedin Nycko">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                </svg>
+
+            </a>
+        </div>
+        <!-- Copyright -->
+        <div class=" text-center pt-2" style="font-size: 12px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+                <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512"/>
+            </svg> Copyright Pablo Cabrera - 2024. Todos los derechos reservados.
+        </div>
+    </div>
+
+
+</footer>
+
+<nav class="navbar navbar-dark bg-dark  border-bottom d-lg-none" data-bs-theme="dark" id="bottom-navbar">
+    <div class="container-fluid d-flex justify-content-around">
+        <a class="btn btn-image" href="#link3">
+            <img src="path/to/your/image3.png" alt="Button 3">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkBottomNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkBottomNavbarLabel">Pablo SW</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Videos
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="videos.html">Nivel 1</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+        <a class="btn btn-image" href="#link4">
+            <img src="path/to/your/image4.png" alt="Button 4">
+        </a>
+    </div>
+</nav>
+<script>
+    window.addEventListener('scroll', function() {
+        const navbar = document.getElementById('navbar');
+        if (window.scrollY > 0) {
+            navbar.classList.add('fixed-bottom');
+
+
+        } else {
+            navbar.classList.remove('fixed-bottom');
+        }
+    });
+</script>
+<!-- Script para cargar el fragmento de la navegación -->
+<script src="navbar-loader.js"></script>
+
+<!-- Script Download Basic Abs -->
+<script>
+    function downloadBasicTiron() {
+        const link = document.createElement('a');
+        link.href = 'Download/RutinasBasicasTiron.txt';  // Reemplaza con la ruta de tu archivo PDF
+        link.download = 'RutinasBasicasTiron.txt';  // Nombre que tendrá el archivo descargado
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        console.log("Intentando descargar el archivo");
+    }
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script async src="//www.instagram.com/embed.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
