@@ -43,6 +43,15 @@
     color: white; /* Color del texto */
 }
 
+.background-pino{
+    background-image: url('Fotos/pino.jpg');
+    background-size: cover; /* Para que la imagen cubra todo el contenedor */
+    background-position: center; /* Para centrar la imagen */
+    align-items: center; /* Centra el contenido verticalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    color: white; /* Color del texto */
+}
+
 
 
 
